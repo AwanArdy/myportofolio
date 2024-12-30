@@ -49,7 +49,7 @@
             </div>
         </div>
 
-        <section id="bahasa" class="bg-white pt-36 pb-32 dark:bg-dark">
+        <section id="bahasa" class="pt-12 pb-12 dark:bg-dark">
             <div class="w-full px-4">
                 <div class="mx-auto mb-16 text-center">
                     <h4 class="mb-2 text-4xl font-bold text-primary">Bahasa & Framework</h4>
