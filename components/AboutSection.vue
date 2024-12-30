@@ -1,5 +1,5 @@
 <template>
-    <section id="about" class="bg-[#F8F8F8] text-[#000000] py-16 min-h-screen flex items-center">
+    <section id="about" class="bg-[#F8F8F8] text-[#000000] py-16 min-h-screen flex items-center px-4 sm:px-6 lg:px-16">
         <div class="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
             <div class="md:w-2/3">
                 <h2 class="text-[#FF4B00] text-lg font-bold uppercase mb-2">
@@ -8,7 +8,7 @@
                 <h3 class="text-3xl md:text-4xl font-bold leading-tight mb-4">
                     Perkenalkan, nama saya Muhammad Awan Ardy Firmansyah
                 </h3>
-                <p class="text-[#3d3f3e] text-lg loading-relaxed">
+                <p class="text-[#3d3f3e] text-justify text-lg loading-relaxed">
                     Mahasiswa prodi Teknik Informatika Universitas Tadulako. Hobi saya main game dan ngidol, saya
                     adalah fans dari idol grup
                     <span class="text-[#812990] font-semibold">Nogizaka46</span>, <span
