@@ -1,0 +1,10 @@
+<template>
+    <section id="hero" class="h-screen bg-[#F8F8F8] flex flex-col justify-center items-center text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold text-[#FF4B00] mb-4">Awan Ardy</h1>
+        <p class="text-xl md:text-2xl font-semibold text-gray-600">Fullstuck Web Developer</p>
+        <p class="text-xl md:text-xl text-gray-600">"ngidol tiap saat, ngoding kalau ingat"</p>
+    </section>
+</template>
+
+<script>
+</script>
