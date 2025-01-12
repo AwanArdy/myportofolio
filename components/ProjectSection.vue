@@ -11,7 +11,7 @@
                 <div class="flex w-full flex-wrap justify-center px-5 xl:mx-auto xl:w-10/12">
                     <div class="mb-12 p-4 md:w-1/2">
                         <div class="overflow-hidden rounded-md shadow-md">
-                            <img src="../assets/img/kamingsun.jpg" alt="Landing Page" width="w-full" />
+                            <img src="https://res.cloudinary.com/dpnj5oclz/image/upload/f_auto,q_auto/v1/portofolio/ffrmnrdkyuw6us4yr7q5" alt="Landing Page" width="w-full" />
                         </div>
                         <h3 class="mt-5 mb-3 text-2xl font-bold text-black">Projek</h3>
                         <p class="text-base font-medium text-secondary">
@@ -20,7 +20,7 @@
                     </div>
                     <div class="mb-12 p-4 md:w-1/2">
                         <div class="overflow-hidden rounded-md shadow-md">
-                            <img src="../assets/img/kamingsun.jpg" alt="Landing Page" width="w-full" />
+                            <img src="https://res.cloudinary.com/dpnj5oclz/image/upload/f_auto,q_auto/v1/portofolio/ffrmnrdkyuw6us4yr7q5" alt="Landing Page" width="w-full" />
                         </div>
                         <h3 class="mt-5 mb-3 text-2xl font-bold text-black">Projek</h3>
                         <p class="text-base font-medium text-secondary">
@@ -29,7 +29,7 @@
                     </div>
                     <div class="mb-12 p-4 md:w-1/2">
                         <div class="overflow-hidden rounded-md shadow-md">
-                            <img src="../assets/img/kamingsun.jpg" alt="Landing Page" width="w-full" />
+                            <img src="https://res.cloudinary.com/dpnj5oclz/image/upload/f_auto,q_auto/v1/portofolio/ffrmnrdkyuw6us4yr7q5" alt="Landing Page" width="w-full" />
                         </div>
                         <h3 class="mt-5 mb-3 text-2xl font-bold text-black">Projek</h3>
                         <p class="text-base font-medium text-secondary">
@@ -38,7 +38,7 @@
                     </div>
                     <div class="mb-12 p-4 md:w-1/2">
                         <div class="overflow-hidden rounded-md shadow-md">
-                            <img src="../assets/img/kamingsun.jpg" alt="Landing Page" width="w-full" />
+                            <img src="https://res.cloudinary.com/dpnj5oclz/image/upload/f_auto,q_auto/v1/portofolio/ffrmnrdkyuw6us4yr7q5" alt="Landing Page" width="w-full" />
                         </div>
                         <h3 class="mt-5 mb-3 text-2xl font-bold text-black">Projek</h3>
                         <p class="text-base font-medium text-secondary">
@@ -78,11 +78,11 @@
                     </a>
                     <a href="#"
                         class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
-                        <img src="../assets/img/svelte.svg" alt="TypeScript" />
+                        <img src="../assets/img/flutter.svg" alt="TypeScript" />
                     </a>
                     <a href="#"
                         class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
-                        <img src="../assets/img/asto.svg" alt="TypeScript" />
+                        <img src="../assets/img/dart.svg" alt="TypeScript" />
                     </a>
                 </div>
             </div>
