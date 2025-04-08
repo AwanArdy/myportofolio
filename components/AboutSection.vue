@@ -8,14 +8,14 @@
                 <h3 class="text-3xl md:text-4xl font-bold leading-tight mb-4">
                     Perkenalkan, nama saya Muhammad Awan Ardy Firmansyah
                 </h3>
-                <p class="text-[#3d3f3e] text-justify text-lg loading-relaxed">
+                <!-- <p class="text-[#3d3f3e] text-justify text-lg loading-relaxed">
                     Mahasiswa prodi Teknik Informatika Universitas Tadulako. Hobi saya main game dan ngidol, saya
                     adalah fans dari idol grup
                     <span class="text-[#812990] font-semibold">Nogizaka46</span>, <span
                         class="text-[#F19DB5] font-semibold">Sakurazaka46</span>, dan <span
                         class="text-[#5BBEE4] font-semibold">Hinatazaka46</span>.
                     Punya impian bekerja sebagai Web Developer di Jepang.
-                </p>
+                </p> -->
             </div>
             <div class="md:w-1/3 text-center md:text-right">
                 <h4 class="text-2xl font-bold mb-4">Mari berteman</h4>

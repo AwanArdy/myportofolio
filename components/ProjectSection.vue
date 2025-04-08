@@ -13,25 +13,13 @@
             <div
                 class="relative w-full flex justify-center items-center mt-20 mb-20"
             >
-                <button
-                    @click="prevCard"
-                    class="absolute left-5 bg-gray-800 text-white p-3 rounded-full z-10"
-                >
-                    ◀
-                </button>
-
-                <div
-                    class="relative w-[80%] flex justify-center items-center h-64"
-                >
+                <div class="flex flex-wrap justify-center gap-6 mt-20 mb-20">
                     <div
                         v-for="(card, index) in cards"
                         :key="index"
-                        class="absolute transition-all duration-500 ease-in-out transform"
-                        :class="getCardClass(index)"
+                        class="rounded-md shadow-lg p-6 bg-white text-center w-96 flex flex-col justify-between items-center"
                     >
-                        <div
-                            class="rounded-md shadow-lg p-6 bg-white text-center w-96 h-72 flex flex-col justify-center items-center"
-                        >
+                        <div>
                             <img
                                 :src="card.image"
                                 alt="Project"
@@ -44,15 +32,16 @@
                                 {{ card.description }}
                             </p>
                         </div>
+
+                        <a
+                            v-if="card.slug"
+                            :href="`/blog/${card.slug}`"
+                            class="mt-4 inline-block bg-[#FF4B00] text-white px-4 py-2 rounded-md text-sm transition"
+                        >
+                            Lihat Detail Proyek
+                        </a>
                     </div>
                 </div>
-
-                <button
-                    @click="nextCard"
-                    class="absolute right-5 bg-gray-800 text-white p-3 rounded-full z-10"
-                >
-                    ▶
-                </button>
             </div>
         </div>
 
@@ -111,6 +100,7 @@
                     >
                         <img src="../assets/img/dart.svg" alt="TypeScript" />
                     </a>
+                    <!--  -->
                 </div>
             </div>
         </section>
@@ -126,45 +116,22 @@ export default {
                     title: "Projek A",
                     description: "Deskripsi A",
                     image: "https://res.cloudinary.com/dpnj5oclz/image/upload/f_auto,q_auto/v1/portofolio/ffrmnrdkyuw6us4yr7q5",
+                    slug: "projek-a",
                 },
                 {
                     title: "Projek B",
                     description: "Deskripsi B",
                     image: "https://res.cloudinary.com/dpnj5oclz/image/upload/f_auto,q_auto/v1/portofolio/ffrmnrdkyuw6us4yr7q5",
+                    slug: "projek-b",
                 },
                 {
                     title: "Projek C",
                     description: "Deskripsi C",
                     image: "https://res.cloudinary.com/dpnj5oclz/image/upload/f_auto,q_auto/v1/portofolio/ffrmnrdkyuw6us4yr7q5",
+                    slug: "projek-c",
                 },
             ],
-            currentIndex: 0,
         };
-    },
-    methods: {
-        prevCard() {
-            this.currentIndex =
-                (this.currentIndex - 1 + this.cards.length) % this.cards.length;
-        },
-        nextCard() {
-            this.currentIndex = (this.currentIndex + 1) % this.cards.length;
-        },
-        getCardClass(index) {
-            const totalCards = this.cards.length;
-
-            if (index === this.currentIndex) {
-                return "opacity-100 scale-100 z-10"; // Kartu tengah (aktif)
-            } else if (
-                index ===
-                (this.currentIndex - 1 + totalCards) % totalCards
-            ) {
-                return "opacity-50 scale-100 -translate-x-60 z-0"; // Kartu kiri lebih ke kiri
-            } else if (index === (this.currentIndex + 1) % totalCards) {
-                return "opacity-50 scale-100 translate-x-60 z-0"; // Kartu kanan lebih ke kanan
-            } else {
-                return "opacity-0 hidden"; // Kartu lain tetap tersembunyi
-            }
-        },
     },
 };
 </script>
